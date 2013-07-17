@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Thu, 25 Jul 2013 06:44:59 GMT
+Content-Type: application/json
+Content-Length: 181
+Vary: Accept-Encoding
+Connection: close
+
+{"localities":{"locality":{"category":"Delivery Area","id":12087,"latitude":-34.907829,"location":"NORTH ADELAIDE MELBOURNE ST","longitude":138.60594,"postcode":5006,"state":"SA"}}}

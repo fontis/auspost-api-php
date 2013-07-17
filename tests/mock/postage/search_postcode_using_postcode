@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Thu, 25 Jul 2013 06:55:31 GMT
+Content-Type: application/json
+Content-Length: 438
+Vary: Accept-Encoding
+Connection: close
+
+{"localities":{"locality":[{"category":"Delivery Area","id":5542,"latitude":-37.79977,"location":"FOOTSCRAY","longitude":144.899587,"postcode":3011,"state":"VIC"},{"category":"Delivery Area","id":5543,"latitude":-37.808769,"location":"SEDDON","longitude":144.895486,"postcode":3011,"state":"VIC"},{"category":"Delivery Area","id":5544,"latitude":-37.808769,"location":"SEDDON WEST","longitude":144.895486,"postcode":3011,"state":"VIC"}]}}

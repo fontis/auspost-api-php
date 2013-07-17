@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Wed, 24 Jul 2013 07:28:09 GMT
+Content-Type: application/json
+Content-Length: 312
+Vary: Accept-Encoding
+Connection: close
+
+{"weights":{"weight":[{"code":"INTL_ENVELOPE_TYPE_POSTCARD","name":"Postcard\/Greeting card"},{"code":"INTL_ENVELOPE_TYPE_UP_TO_50G","name":"Up to 50g","value":50},{"code":"INTL_ENVELOPE_TYPE_50G_250G","name":">50g - 250g","value":250},{"code":"INTL_ENVELOPE_TYPE_250G_500G","name":">250g - 500g","value":500}]}}

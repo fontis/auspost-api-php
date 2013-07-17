@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jul 2013 06:25:31 GMT
+Set-Cookie: ObSSOCookie=mWCc6U%2FLZFJCi1Jen0hOcKuAu19ktMACjZ8jpal2CXCZ5kg%2BlH1Ao6zq74wd8onF3nMEacdNJfrvHmoHFNtGZuA68lyPC1zM9gfiej1fdLkvZlq%2FpBCnbNa7GdT5k9MRN0%2FSOcMG7fe1WFenCCgDF6b4hF5uj1uMpz%2BUurOzpl0vxGboiBaIyGe2ye%2FPaXWVyJEWBNVpCdNhm3OORm8b4spjvqmTdwCKBl9L3D7NK7ADZhQCIS3PT7bEcEQWMD2SXqju03cj51yDT6gb2UmNgg%3D%3D; httponly; path=/; domain=.auspost.com.au;
+Cache-Control: public
+Pragma: public
+Set-Cookie: JSESSIONID=5326C7B80CA32DC7C90CC8CE6F65F9D7.jvm2; Path=/myapi; Secure; HttpOnly
+Content-Type: application/json;version=1
+Content-Length: 1158
+Connection: close
+
+{"CustomerCollectionPoints":{"CustomerCollectionPoint":{"DeliveryPointIdentifier":63938512,"ServiceCode":109,"ServiceDescription":"CDP","CustomerCollectionPointName":"Hoppers Crossing","Active":true,"CustomerAccess":[{"Weekday":3,"WeekdayDescription":"","TimePeriod":{"StartTime":"06:00:00","EndTime":"13:30:00"}},{"Weekday":1,"WeekdayDescription":"","TimePeriod":{"StartTime":"06:00:00","EndTime":"13:30:00"}},{"Weekday":2,"WeekdayDescription":"","TimePeriod":{"StartTime":"06:00:00","EndTime":"13:30:00"}},{"Weekday":5,"WeekdayDescription":"","TimePeriod":{"StartTime":"06:00:00","EndTime":"13:30:00"}},{"Weekday":4,"WeekdayDescription":"","TimePeriod":{"StartTime":"06:00:00","EndTime":"13:30:00"}}],"CustomerAccessSummary":"Mon - Fri: 6:00 AM to 1:30 PM","Address":{"AddressLine":["Customer Collection Location","Hoppers Crossing","2-6 LENTINI STREET"],"SuburbOrPlaceOrLocality":"HOPPERS CROSSING","StateOrTerritory":"VIC","PostCode":3029,"DeliveryPointIdentifier":63938512,"Country":{"CountryCode":"AU","CountryName":"Australia"}},"BorderingLocalityPostcode":[3024,3026,3027,3028,3030],"Latitude":-37.872888,"Longitude":144.728696,"NumberofLockers":0}}}

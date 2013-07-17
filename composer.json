@@ -1,0 +1,22 @@
+{
+    "name": "fontis/auspost-api-php-client",
+    "description": "Auspost API Client Library for PHP",
+    "authors":[
+        {
+            "name": "Fontis",
+            "homepage": "http://www.fontis.com.au"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "guzzle/guzzle": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Auspost": "src/"
+        }
+    }
+}

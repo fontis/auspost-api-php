@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Thu, 25 Jul 2013 07:44:19 GMT
+Content-Type: application/json
+Content-Length: 206
+Vary: Accept-Encoding
+Connection: close
+
+{"postage_result":{"service":"Express Courier International Platinum","delivery_time":"1-2 work days","total_cost":"81.30","costs":{"cost":{"cost":"81.30","item":"Express Courier International Platinum"}}}}

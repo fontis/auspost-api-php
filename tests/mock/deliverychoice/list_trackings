@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jul 2013 06:34:31 GMT
+Set-Cookie: ObSSOCookie=EtjWoyR%2BGUynb5TV6V5nwW%2BUu6EM3eti0h5nVJr5UUT1LishUMankhwOo6BV133%2Fk5qFlQc%2FONECUzKejVWmjjNe0Z1iBxHwDXJxepUbgTRWkwBiTH6z6lbcSGIbCQkq4Q81%2FoAkA5yxP6YbQivvc%2Bmgsu3UFaTvJ1iGc78PrL6eXuGOg3yXp4QWZPEF3yBSPJkvvKQuEAvnH5EHZKdMcSXY5XKu%2FmwKgs5T%2FIOftZa0R0O7pLMn6R2jtQRaYV3GWwUT5lsWXAgugCUsxqDlP%2BqojOjKqP0NgmHarrXAACA%3D; httponly; path=/; domain=.auspost.com.au;
+Cache-Control: public
+Pragma: public
+Set-Cookie: JSESSIONID=475BF4161AF52AB6F75A7F3C08DD4A2B.jvm2; Path=/myapi; Secure; HttpOnly
+Content-Type: application/json;version=1
+Content-Length: 195
+Connection: close
+
+{"QueryTrackEventsResponse":{"TrackingResult":{"TrackingID":"CZ299999784AU","ArticleDetails":{"ArticleID":"CZ299999784AU","EventNotification":"00","ProductName":"International","EventCount":0}}}}

@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Thu, 25 Jul 2013 02:42:08 GMT
+Content-Type: application/json
+Content-Length: 1208
+Vary: Accept-Encoding
+Connection: close
+
+{"services":{"service":[{"code":"INTL_SERVICE_ECI_PLATINUM","name":"Express Courier International Platinum","price":"81.30","max_extra_cover":5000,"options":{"option":{"code":"INTL_SERVICE_OPTION_EXTRA_COVER","name":"Extra Cover"}}},{"code":"INTL_SERVICE_ECI_D","name":"Express Courier International Documents","price":47.15,"max_extra_cover":5000,"options":{"option":[{"code":"INTL_SERVICE_OPTION_PICKUP_METRO","name":"Pick Up (Metro Only)"},{"code":"INTL_SERVICE_OPTION_EXTRA_COVER","name":"Extra Cover"}]}},{"code":"INTL_SERVICE_EPI_C5","name":"Express Post International C5","price":15.35},{"code":"INTL_SERVICE_EPI_B4","name":"Express Post International B4","price":22.95},{"code":"INTL_SERVICE_PTI","name":"Pack and Track International","price":"19.70"},{"code":"INTL_SERVICE_RPI_DLE","name":"Registered Post International DLE","price":"14.40","options":{"option":{"code":"INTL_SERVICE_OPTION_CONFIRM_DELIVERY","name":"Delivery Confirmation"}}},{"code":"INTL_SERVICE_RPI_B4","name":"Registered Post International B4","price":"22.10","options":{"option":{"code":"INTL_SERVICE_OPTION_CONFIRM_DELIVERY","name":"Delivery Confirmation"}}},{"code":"INTL_SERVICE_AIR_MAIL","name":"Air Mail","price":"2.60"}]}}

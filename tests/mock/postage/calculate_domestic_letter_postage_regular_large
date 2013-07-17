@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Thu, 25 Jul 2013 07:15:16 GMT
+Content-Type: application/json
+Content-Length: 173
+Vary: Accept-Encoding
+Connection: close
+
+{"postage_result":{"service":"Large Letter","delivery_time":"Delivered in up to 4 business days","total_cost":"1.20","costs":{"cost":{"cost":"1.20","item":"Large Letter"}}}}

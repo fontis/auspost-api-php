@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Thu, 25 Jul 2013 02:47:21 GMT
+Content-Type: application/json
+Content-Length: 1333
+Vary: Accept-Encoding
+Connection: close
+
+{"services":{"service":[{"code":"INTL_SERVICE_ECI_PLATINUM","name":"Express Courier International Platinum","price":307.15,"max_extra_cover":5000,"options":{"option":{"code":"INTL_SERVICE_OPTION_EXTRA_COVER","name":"Extra Cover"}}},{"code":"INTL_SERVICE_ECI_M","name":"Express Courier International Merchandise","price":"211.80","max_extra_cover":5000,"options":{"option":[{"code":"INTL_SERVICE_OPTION_PICKUP_METRO","name":"Pick Up (Metro Only)"},{"code":"INTL_SERVICE_OPTION_EXTRA_COVER","name":"Extra Cover"}]}},{"code":"INTL_SERVICE_ECI_D","name":"Express Courier International Documents","price":"202.90","max_extra_cover":5000,"options":{"option":[{"code":"INTL_SERVICE_OPTION_PICKUP_METRO","name":"Pick Up (Metro Only)"},{"code":"INTL_SERVICE_OPTION_EXTRA_COVER","name":"Extra Cover"}]}},{"code":"INTL_SERVICE_EPI","name":"Express Post International","price":183.95,"max_extra_cover":5000,"options":{"option":{"code":"INTL_SERVICE_OPTION_EXTRA_COVER","name":"Extra Cover"}}},{"code":"INTL_SERVICE_AIR_MAIL","name":"Air Mail","price":176.95,"max_extra_cover":5000,"options":{"option":{"code":"INTL_SERVICE_OPTION_EXTRA_COVER","name":"Extra Cover"}}},{"code":"INTL_SERVICE_SEA_MAIL","name":"Sea Mail","price":"110.70","max_extra_cover":5000,"options":{"option":{"code":"INTL_SERVICE_OPTION_EXTRA_COVER","name":"Extra Cover"}}}]}}

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jul 2013 06:38:02 GMT
+Set-Cookie: ObSSOCookie=KAp5xckIhdxjaa7Iq73jeuVc1HRAtepb01yxreFJnjy223kcKgsZDSd3RusJtxKMgQfhT8CdsPmlEEYfY9yrMVzwfcwG2N6d9hROxoe5PQCFr%2FwpujaZY86%2BHZT%2FxnGFuoIKuYdEWO%2Fn6GpomNIPrI5ae1CmUbuh74IEUfpgIJJVUCK%2Bac%2FpBuCpwyKwdWQuverDaVa5tCJnB4Ms%2BP7MsWGfkZ33tPBEO21UP6jbyfzqH9vPmObhF5sL9xb9ea7jOOzJOtHiT3NGLuGmtIkTOA%3D%3D; httponly; path=/; domain=.auspost.com.au;
+Cache-Control: public
+Pragma: public
+Set-Cookie: JSESSIONID=B6C4D7DD966361433C1235AE599067E8.jvm2; Path=/myapi; Secure; HttpOnly
+Content-Type: application/json;version=1
+Content-Length: 136
+Connection: close
+
+{"QueryTrackEventsResponse":{"TrackingResult":{"TrackingID":123,"BusinessException":{"Code":1401,"Description":"Invalid tracking ID"}}}}

@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Wed, 24 Jul 2013 07:26:14 GMT
+Content-Type: application/json
+Content-Length: 193
+Vary: Accept-Encoding
+Connection: close
+
+{"thicknesses":{"thickness":[{"code":"AUS_LETTER_THICKNESS_LESSTHAN_5MM","name":"Less than or equal to 5 mm","value":5},{"code":"AUS_LETTER_THICKNESS_5MM_20MM","name":"5 - 20 mm","value":20}]}}

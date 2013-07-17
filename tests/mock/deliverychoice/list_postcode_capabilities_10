@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jul 2013 06:14:04 GMT
+Set-Cookie: ObSSOCookie=Bul%2B1swOfB3h3JbTGOdVdifkaZyFxyF%2Brb12ig1RBSDcG1UaPakDE3PlcNZadjV8fqe88Y4%2BGv%2BeWKgI9sr%2B85oivwkULrqYoaREejOnOlSNmRgVqt6ke3gUG5%2BloGcdOsBGtQg7ImWMsBc2%2FWgGaY6p08qFl7ZEWh2U0jv6AhuakX6%2FqLBr8FiTtfztlRPVjZC5fiJpS0YgEN4QcRTP04HEmXO1baNjTxTm20F1WVIodZZ1DZBohxp276Iw5OAkNGmrcvl4IuTkwMEAgruwpg%3D%3D; httponly; path=/; domain=.auspost.com.au;
+Cache-Control: public
+Pragma: public
+Set-Cookie: JSESSIONID=C36DF284344FE5734CD588B8A425C826.jvm1; Path=/myapi; Secure; HttpOnly
+Content-Type: application/json;version=1
+Content-Length: 101
+Connection: close
+
+{"PostcodeDeliveryCapabilities":{"BusinessException":{"Code":1201,"Description":"Invalid postcode"}}}

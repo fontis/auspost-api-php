@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Thu, 25 Jul 2013 02:04:07 GMT
+Content-Type: application/json
+Content-Length: 1073
+Vary: Accept-Encoding
+Connection: close
+
+{"services":{"service":[{"code":"AUS_LETTER_REGULAR_LARGE","name":"Large Letter","price":"1.20","max_extra_cover":5000,"options":{"option":[{"code":"AUS_SERVICE_OPTION_STANDARD","name":"Standard Service"},{"code":"AUS_SERVICE_OPTION_REGISTERED_POST","name":"Registered Post","suboptions":{"option":[{"code":"AUS_SERVICE_OPTION_DELIVERY_CONFIRMATION","name":"Delivery Confirmation"},{"code":"AUS_SERVICE_OPTION_PERSON_TO_PERSON","name":"Person to Person"},{"code":"AUS_SERVICE_OPTION_EXTRA_COVER","name":"Extra Cover"}]}},{"code":"AUS_SERVICE_OPTION_COD_POSTAGE_FEES","name":"C.O.D - Postage & Fees"},{"code":"AUS_SERVICE_OPTION_COD_MONEY_COLLECTION","name":"C.O.D - Money Collection, Postage & Fees"}]}},{"code":"AUS_LETTER_EXPRESS_SMALL","name":"Express Post Small Envelope","price":5.55,"max_extra_cover":5000,"options":{"option":[{"code":"AUS_SERVICE_OPTION_STANDARD","name":"Standard Service"},{"code":"AUS_SERVICE_OPTION_SIGNATURE_ON_DELIVERY","name":"Signature on Delivery","suboptions":{"option":{"code":"AUS_SERVICE_OPTION_EXTRA_COVER","name":"Extra Cover"}}}]}}]}}

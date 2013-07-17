@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Wed, 24 Jul 2013 07:28:29 GMT
+Content-Type: application/json
+Content-Length: 1557
+Vary: Accept-Encoding
+Connection: close
+
+{"weights":{"weight":[{"name":"Up to 500g","value":0.5},{"name":">500g - 1kg","value":1},{"name":">1kg - 1.5kg","value":1.5},{"name":">1.5kg - 2.0kg","value":2},{"name":">2.0kg - 2.5kg","value":2.5},{"name":">2.5kg - 3.0kg","value":3},{"name":">3.0kg - 3.5kg","value":3.5},{"name":">3.5kg - 4.0kg","value":4},{"name":">4.0kg - 4.5kg","value":4.5},{"name":">4.5kg - 5.0kg","value":5},{"name":">5.0kg - 5.5kg","value":5.5},{"name":">5.5kg - 6.0kg","value":6},{"name":">6.0kg - 6.5kg","value":6.5},{"name":">6.5kg - 7.0kg","value":7},{"name":">7.0kg - 7.5kg","value":7.5},{"name":">7.5kg - 8.0kg","value":8},{"name":">8.0kg - 8.5kg","value":8.5},{"name":">8.5kg - 9.0kg","value":9},{"name":">9.0kg - 9.5kg","value":9.5},{"name":">9.5kg - 10.0kg","value":10},{"name":">10.0kg - 10.5kg","value":10.5},{"name":">10.5kg - 11.0kg","value":11},{"name":">11.0kg - 11.5kg","value":11.5},{"name":">11.5kg - 12.0kg","value":12},{"name":">12.0kg - 12.5kg","value":12.5},{"name":">12.5kg - 13.0kg","value":13},{"name":">13.0kg - 13.5kg","value":13.5},{"name":">13.5kg - 14.0kg","value":14},{"name":">14.0kg - 14.5kg","value":14.5},{"name":">14.5kg - 15.0kg","value":15},{"name":">15.0kg - 15.5kg","value":15.5},{"name":">15.5kg - 16.0kg","value":16},{"name":">16.0kg - 16.5kg","value":16.5},{"name":">16.5kg - 17.0kg","value":17},{"name":">17.0kg - 17.5kg","value":17.5},{"name":">17.5kg - 18.0kg","value":18},{"name":">18.0kg - 18.5kg","value":18.5},{"name":">18.5kg - 19.0kg","value":19},{"name":">19.0kg - 19.5kg","value":19.5},{"name":">19.5kg - 20.0kg","value":20}]}}

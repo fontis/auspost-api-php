@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jul 2013 06:05:37 GMT
+Set-Cookie: ObSSOCookie=Jh2eIK2uuhV2RCLV%2BTu0qa59aP0fVjerr%2FUFAQbszi6GcI9by6byc2073n2LodOxv8my15m17Zb5%2FjLyOCXlfPsdqQRLMz%2FlAWv5wNoCpalO6j%2FrrkC2xdz5DY3LRHtM6%2FFn6Sp%2F9xMl%2FveyemaCDM6Fyr4AqBrh2AhIL6Wz9%2FI5IZ35ff6JW3z5aCz6G%2F7FPz7OiNtcjlsd4z6x%2FvsmlOSlRykUVxLBJ9G3qiho8JV%2BOtdJkkM8ZE9DgTI3uxCVqdKOle4pMUlUA%2FACNJXkfA%3D%3D; httponly; path=/; domain=.auspost.com.au;
+Cache-Control: public
+Pragma: public
+Set-Cookie: JSESSIONID=EAEC00C62B63317578F3379F0E169FD7.jvm2; Path=/myapi; Secure; HttpOnly
+Content-Type: application/json;version=1
+Content-Length: 745
+Connection: close
+
+{"DeliveryTimeslots":{"DayTimeslot":{"Weekday":1,"WeekdayDescription":"Monday","TimePeriod":[{"StartTime":"07:00:00","EndTime":"12:00:00","Duration":"PT5H","TimePeriodName":"AM"},{"StartTime":"12:00:00","EndTime":"17:00:00","Duration":"PT5H","TimePeriodName":"PM"},{"StartTime":"09:00:00","EndTime":"11:00:00","Duration":"PT2H","TimePeriodName":"9 AM - 11 AM"},{"StartTime":"11:00:00","EndTime":"13:00:00","Duration":"PT2H","TimePeriodName":"11 AM - 1 PM"},{"StartTime":"13:00:00","EndTime":"15:00:00","Duration":"PT2H","TimePeriodName":"1 PM - 3 PM"},{"StartTime":"15:00:00","EndTime":"17:00:00","Duration":"PT2H","TimePeriodName":"3 PM - 5 PM"},{"StartTime":"17:00:00","EndTime":"19:00:00","Duration":"PT2H","TimePeriodName":"5 PM - 7 PM"}]}}}

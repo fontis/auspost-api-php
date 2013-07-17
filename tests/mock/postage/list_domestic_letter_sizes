@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Wed, 24 Jul 2013 07:26:43 GMT
+Content-Type: application/json
+Content-Length: 446
+Vary: Accept-Encoding
+Connection: close
+
+{"sizes":{"size":[{"code":"AUS_LETTER_SIZE_DL","name":"DL (110 x 220 mm)","value":"110x220"},{"code":"AUS_LETTER_SIZE_C6","name":"C6 (114 x 162 mm)","value":"114x162"},{"code":"AUS_LETTER_SIZE_C5","name":"C5 (162 x 229 mm)","value":"162x229"},{"code":"AUS_LETTER_SIZE_C4","name":"C4 (324 x 229 mm)","value":"324x229"},{"code":"AUS_LETTER_SIZE_B4","name":"B4 (353 x 250 mm)","value":"353x250"},{"code":"AUS_LETTER_SIZE_OTH","name":"Other (mm)"}]}}

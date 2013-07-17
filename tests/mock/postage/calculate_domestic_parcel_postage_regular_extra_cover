@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Thu, 25 Jul 2013 07:38:34 GMT
+Content-Type: application/json
+Content-Length: 254
+Vary: Accept-Encoding
+Connection: close
+
+{"postage_result":{"service":"Parcel Post","delivery_time":"Delivered in up to 2 business days","total_cost":"13.40","costs":{"cost":[{"cost":8.95,"item":"Parcel Post"},{"cost":2.95,"item":"Signature on Delivery"},{"cost":"1.50","item":"Extra Cover"}]}}}

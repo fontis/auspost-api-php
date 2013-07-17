@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Thu, 25 Jul 2013 02:31:55 GMT
+Content-Type: application/json
+Content-Length: 1315
+Vary: Accept-Encoding
+Connection: close
+
+{"services":{"service":[{"code":"AUS_PARCEL_REGULAR","name":"Parcel Post","price":8.95,"max_extra_cover":5000,"options":{"option":[{"code":"AUS_SERVICE_OPTION_STANDARD","name":"Standard Service"},{"code":"AUS_SERVICE_OPTION_SIGNATURE_ON_DELIVERY","name":"Signature on Delivery","suboptions":{"option":{"code":"AUS_SERVICE_OPTION_EXTRA_COVER","name":"Extra Cover"}}}]}},{"code":"AUS_PARCEL_EXPRESS","name":"Express Post","price":12.35,"max_extra_cover":5000,"options":{"option":[{"code":"AUS_SERVICE_OPTION_STANDARD","name":"Standard Service"},{"code":"AUS_SERVICE_OPTION_SIGNATURE_ON_DELIVERY","name":"Signature on Delivery","suboptions":{"option":{"code":"AUS_SERVICE_OPTION_EXTRA_COVER","name":"Extra Cover"}}}]}},{"code":"AUS_PARCEL_COURIER","name":"Courier Post","price":29.95,"max_extra_cover":5000,"options":{"option":{"code":"AUS_SERVICE_OPTION_COURIER_EXTRA_COVER_SERVICE","name":"Standard cover","suboptions":{"option":{"code":"AUS_SERVICE_OPTION_EXTRA_COVER","name":"Extra Cover"}}}}},{"code":"AUS_PARCEL_COURIER_SATCHEL_MEDIUM","name":"Courier Post Assessed Medium Satchel","price":29.95,"max_extra_cover":5000,"options":{"option":{"code":"AUS_SERVICE_OPTION_COURIER_EXTRA_COVER_SERVICE","name":"Standard cover","suboptions":{"option":{"code":"AUS_SERVICE_OPTION_EXTRA_COVER","name":"Extra Cover"}}}}}]}}

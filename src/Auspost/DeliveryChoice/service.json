@@ -1,0 +1,145 @@
+{
+    "operations": {
+        "ListDeliveryDates": {
+            "httpMethod": "GET",
+            "uri": "DeliveryDates.json",
+            "parameters": {
+                "from_postcode": {
+                    "required": true,
+                    "type": "integer",
+                    "location": "query",
+                    "sentAs": "fromPostcode"
+                },
+                "to_postcode": {
+                    "required": true,
+                    "type": "integer",
+                    "location": "query",
+                    "sentAs": "toPostcode"
+                },
+                "network_id": {
+                    "required": true,
+                    "type": "string",
+                    "location": "query",
+                    "sentAs": "networkId"
+                },
+                "lodgement_date": {
+                    "required": true,
+                    "type": "string",
+                    "location": "query",
+                    "sentAs": "lodgementDate"
+                },
+                "number_of_dates": {
+                    "required": false,
+                    "type": "integer",
+                    "location": "query",
+                    "sentAs": "numberOfDates"
+                }
+            }
+        },
+        "ListDeliveryTimeslots": {
+            "httpMethod": "GET",
+            "uri": "DeliveryTimeslots.json",
+            "parameters": {
+                "day": {
+                    "required": false,
+                    "type": "integer",
+                    "location": "query"
+                }
+            }
+        },
+        "ListPostcodeCapabilities": {
+            "httpMethod": "GET",
+            "uri": "PostcodeCapability.json",
+            "parameters": {
+                "postcode": {
+                    "required": false,
+                    "type": "integer",
+                    "location": "query"
+                }
+            }
+        },
+        "ListDeliveryChoiceFreeScheduleCapabilities": {
+            "httpMethod": "GET",
+            "uri": "api/get/reschedulefees.json",
+            "parameters": {
+                "to": {
+                    "required": true,
+                    "type": ["string", "integer"],
+                    "location": "query"
+                }
+            }
+        },
+        "ListCustomerCollectionPoints": {
+            "httpMethod": "GET",
+            "uri": "CustomerCollectionPoints.json",
+            "parameters": {
+                "state": {
+                    "required": false,
+                    "type": "string",
+                    "location": "query"
+                },
+                "postcode": {
+                    "required": false,
+                    "type": ["string", "integer"],
+                    "location": "query"
+                },
+                "last_update": {
+                    "required": false,
+                    "type": "string",
+                    "location": "query",
+                    "sentAs": "lastUpdate"
+                }
+            }
+        },
+        "ListTrackings": {
+            "httpMethod": "GET",
+            "uri": "QueryTracking.json",
+            "parameters": {
+                "tracking_id": {
+                    "required": true,
+                    "type": "string",
+                    "location": "query",
+                    "sentAs": "q"
+                }
+            }
+        },
+        "ValidateAddress": {
+            "httpMethod": "GET",
+            "uri": "ValidateAddress.json",
+            "parameters": {
+                "address_line_1": {
+                    "required": true,
+                    "type": "string",
+                    "location": "query",
+                    "sentAs": "addressLine1"
+                },
+                "address_line_2": {
+                    "required": false,
+                    "type": "string",
+                    "location": "query",
+                    "sentAs": "addressLine2"
+                },
+                "state": {
+                    "required": true,
+                    "type": "string",
+                    "location": "query"
+                },
+                "suburb": {
+                    "required": true,
+                    "type": "string",
+                    "location": "query"
+                },
+                "postcode": {
+                    "required": true,
+                    "type": "string",
+                    "location": "query"
+                },
+                "country": {
+                    "required": true,
+                    "type": "string",
+                    "location": "query"
+                }
+            }
+        }
+    }
+}

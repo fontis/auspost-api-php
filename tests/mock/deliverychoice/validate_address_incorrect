@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jul 2013 06:43:15 GMT
+Set-Cookie: ObSSOCookie=bNYAiX7ikt63wv0FtKaDkdj34IndHWbKAvi5Lw3JxXTdKDHc0BTEj9uIvxwZqoVbnC01%2F%2BUMU3eIyVrFUwkPhC5vJWScS2BQvpqHSvuKPL5gwKL%2BolG%2BwBk6OaEBSAz4nTvsmUL0itxCeh%2Bxdg344urdjdahDpvzmiy1tbMHuBMe%2Bioi5PzNK80jAdCx0JDA2gA6J5oTKDq4A87DVCv2TGPsF3UtUc09%2B2oOGSOvEquazMKy3UadC2RNM4OYFCBMEyVHjQXuX5rLHeF7OLD00g%3D%3D; httponly; path=/; domain=.auspost.com.au;
+Cache-Control: public
+Pragma: public
+Set-Cookie: JSESSIONID=3B5D07955AC71B75C096FF5EE1002B50.jvm1; Path=/myapi; Secure; HttpOnly
+Content-Type: application/json;version=1
+Content-Length: 134
+Connection: close
+
+{"ValidateAustralianAddressResponse":{"ValidAustralianAddress":false,"BusinessException":{"Code":1503,"Description":"Invalid state"}}}

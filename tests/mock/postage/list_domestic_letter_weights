@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Wed, 24 Jul 2013 07:26:09 GMT
+Content-Type: application/json
+Content-Length: 234
+Vary: Accept-Encoding
+Connection: close
+
+{"weights":{"weight":[{"code":"AUS_LETTER_WEIGHT_50_125","name":"Up to 125g","value":125},{"code":"AUS_LETTER_WEIGHT_125_250","name":">125g - 250g","value":250},{"code":"AUS_LETTER_WEIGHT_250_500","name":">250g - 500g","value":500}]}}

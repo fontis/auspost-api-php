@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Thu, 25 Jul 2013 07:32:08 GMT
+Content-Type: application/json
+Content-Length: 329
+Vary: Accept-Encoding
+Connection: close
+
+{"postage_result":{"service":"Express Post Small Envelope","delivery_time":"Guaranteed Next Business Day within the Express Post network (If posted on any business day Monday to Friday in accordance with the conditions set out on the item).","total_cost":5.55,"costs":{"cost":{"cost":5.55,"item":"Express Post Small Envelope"}}}}

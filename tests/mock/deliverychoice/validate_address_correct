@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jul 2013 06:44:38 GMT
+Set-Cookie: ObSSOCookie=8Y6fCetcHz%2FxC7849%2Bx3IBkPHn6YTxNBIaBBtfkjB6zau8vX%2FwDwm4hD6RhQBMvpcHFXxc6darc%2F8FwuBcRBKCjbFJYi%2FV%2BQtFVh7syh6s5jV57ufjV90XMAiYpj%2Ft3VobSFEzCBmFj4KGjqYHbhuCt6tE1DA5CvlZrv9%2Bxb99PFK6h6vAUGcsb1sKn4IsSrmDrCjZC%2FZgfoA%2Bldrw8%2BRu3Gki4VUwBytaP8HecvqT0Btl%2BnRR2cQ82poWU1nzwy9d2gPjWQNcX5AKdTknHIVw%3D%3D; httponly; path=/; domain=.auspost.com.au;
+Cache-Control: public
+Pragma: public
+Set-Cookie: JSESSIONID=AB0C0C3B097023383D131DC59BADDAAF.jvm2; Path=/myapi; Secure; HttpOnly
+Content-Type: application/json;version=1
+Content-Length: 282
+Connection: close
+
+{"ValidateAustralianAddressResponse":{"Address":{"AddressLine":"111 BOURKE ST","SuburbOrPlaceOrLocality":"MELBOURNE","StateOrTerritory":"VIC","PostCode":3000,"DeliveryPointIdentifier":54516251,"Country":{"CountryCode":"AU","CountryName":"Australia"}},"ValidAustralianAddress":true}}

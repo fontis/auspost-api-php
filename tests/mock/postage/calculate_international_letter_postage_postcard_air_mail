@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Thu, 25 Jul 2013 07:43:25 GMT
+Content-Type: application/json
+Content-Length: 145
+Vary: Accept-Encoding
+Connection: close
+
+{"postage_result":{"service":"Air Mail","delivery_time":"3-10 work days","total_cost":"1.70","costs":{"cost":{"cost":"1.70","item":"Air Mail"}}}}

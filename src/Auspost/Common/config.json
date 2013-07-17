@@ -1,0 +1,22 @@
+{
+    "class": "Auspost\\Common\\Auspost",
+    "services": {
+        "default_settings": {
+            "params": {
+
+            }
+        },
+
+        "postage": {
+            "alias": "Postage",
+            "extends": "default_settings",
+            "class": "Auspost\\Postage\\PostageClient"
+        },
+
+        "deliverychoice": {
+            "alias": "DeliveryChoice",
+            "extends": "default_settings",
+            "class": "Auspost\\DeliveryChoice\\DeliveryChoiceClient"
+        }
+    }
+}

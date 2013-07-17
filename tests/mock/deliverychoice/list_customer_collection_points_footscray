@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jul 2013 06:24:50 GMT
+Set-Cookie: ObSSOCookie=fiEVMLnVEzesv29pfQtg4%2FrcxUGRMkeoLqd53E7KHGCElwdQ1XjitlEzE7MaGYdIOcSL22LYr3MGvp%2F4EKN8tY7KpTAd0Nj5vjE5Rj3ke9lUAibuVpmITKLCh594VVNoXn9NBc2EUTOvmZQPBpjvXzyoEdW%2ByJT84zEybuOWKZUeaP7CpPr2%2Fyb5Q%2FWBUfZNd%2FFLtc98ofdZ9PmU01NrOqWDF61C9QNLkx7fqTbyMBvt6POegNKhHhaPnD3QvwpSbAF46AqzTWfeiPElzEQUsg%3D%3D; httponly; path=/; domain=.auspost.com.au;
+Cache-Control: public
+Pragma: public
+Set-Cookie: JSESSIONID=57CAD2E5C70DDE3E06C982CB29C9AE3F.jvm1; Path=/myapi; Secure; HttpOnly
+Content-Type: application/json;version=1
+Content-Length: 31
+Connection: close
+
+{"CustomerCollectionPoints":""}

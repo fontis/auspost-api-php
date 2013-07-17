@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jul 2013 06:30:30 GMT
+Set-Cookie: ObSSOCookie=1wPFSCfRJgoCWV2JDBzpJiAA4Zb38M6OR2T9B1RDeLWJ%2BiC%2BbdEn%2Fn8SmgPx%2BNasgRw4qOXLY5dq4ULQsG8m9HlC%2BKKUrzJNKgr8h%2BdSTGOwXleM%2B8tsE16plRbq%2FNR7qQLbmE5r4DomnYNbtIu3joNfOKvv8Zw%2FdO1%2BQIGlfIZYYeK3egXsVhyKcm05svGxykjHZP2zQkt%2BUNgI9LYh9g7syvIYvIK32K3gzSL9bPesMq1P%2BbYnF35mFzdvYwVHX2HZiNKjAgvENfcDVm33eGnVYWEeDGyiqV8LyrPrrac%3D; httponly; path=/; domain=.auspost.com.au;
+Cache-Control: public
+Pragma: public
+Set-Cookie: JSESSIONID=78EE5231D75198FAB06927DC34135576.jvm1; Path=/myapi; Secure; HttpOnly
+Content-Type: application/json;version=1
+Content-Length: 93
+Connection: close
+
+{"CustomerCollectionPoints":{"BusinessException":{"Code":1303,"Description":"Invalid Date"}}}

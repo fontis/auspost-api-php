@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jul 2013 05:44:35 GMT
+Set-Cookie: ObSSOCookie=3jF6W%2F9sUgWPIqbPFAbPimqEzqdXM7wAdQAyFa%2FnFeNtjR0s0FfVCniMpsPcXJHQC%2Bl7V4dFglq4fUXNH15T28%2FezwMntf0RtwM9n3VGwK4HwGYpH4QevH9bxUnm1yfirf%2BCdZzJSPVgFpbQJfMLsbmSCdzdw5BKuKZxQQZUgyXizY6j7r6lx%2Bvil9RWTjrPeia%2BimvtRbB3g5sINaMIFiD%2F75m%2FDjAvVQE5FeFOqu%2B%2ByIQYpDoHweFCTDhYEepwe41aI2QYzBuIsYscFB5bBw%3D%3D; httponly; path=/; domain=.auspost.com.au;
+Cache-Control: public
+Pragma: public
+Set-Cookie: JSESSIONID=17DA6EEE9F5D69D0CCFB1D314C7F9E6A.jvm1; Path=/myapi; Secure; HttpOnly
+Content-Type: application/json;version=1
+Content-Length: 169
+Connection: close
+
+{"DeliveryEstimateRequestResponse":{"DeliveryEstimateDates":{"DeliveryEstimateDate":{"DeliveryDate":"2022-10-12","NumberOfWorkingDays":1,"TimedDeliveryEnabled":false}}}}

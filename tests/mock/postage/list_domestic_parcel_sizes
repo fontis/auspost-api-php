@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Thu, 25 Jul 2013 02:00:31 GMT
+Content-Type: application/json
+Content-Length: 836
+Vary: Accept-Encoding
+Connection: close
+
+{"sizes":{"size":[{"code":"AUS_PARCEL_TYPE_BOXED_OTH","name":"My own box"},{"code":"AUS_PARCEL_TYPE_BOXED_BC","name":"Bx1 (22.0 x 16.0 x 7.7)","value":"22.0x16.0x7.7"},{"code":"AUS_PARCEL_TYPE_BOXED_BM","name":"Bx2 (31.0 x 22.5 x 10.2)","value":"31.0x22.5x10.2"},{"code":"AUS_PARCEL_TYPE_BOXED_BP","name":"Bx3 (40.0 x 20.0 x 18.0)","value":"40.0x20.0x18.0"},{"code":"AUS_PARCEL_TYPE_BOXED_BT","name":"Bx4 (43.0 x 30.5 x 14.0)","value":"43.0x30.5x14.0"},{"code":"AUS_PARCEL_TYPE_BOXED_BW","name":"Bx5 (40.5 x 30.0 x 25.5)","value":"40.5x30.0x25.5"},{"code":"AUS_PARCEL_TYPE_BOXED_VCB","name":"Bx6 (22.0 x 14.5 x 3.5)","value":"22.0x14.5x3.5"},{"code":"AUS_PARCEL_TYPE_BOXED_CD","name":"Bx7 (14.5 x 12.7 x 1.0)","value":"14.5x12.7x1.0"},{"code":"AUS_PARCEL_TYPE_BOXED_TOUGHPAK","name":"Bx8 (36.3 x 21.2 x 6.5)","value":"36.3x21.2x6.5"}]}}

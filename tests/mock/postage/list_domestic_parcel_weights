@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Wed, 24 Jul 2013 07:29:21 GMT
+Content-Type: application/json
+Content-Length: 838
+Vary: Accept-Encoding
+Connection: close
+
+{"weights":{"weight":[{"code":"AUS_PARCEL_WEIGHT_250G_500G","name":"Up to 500g","value":0.5},{"name":">500g - 1kg","value":1},{"name":">1kg - 2kg","value":2},{"name":">2kg - 3kg","value":3},{"name":">3kg - 4kg","value":4},{"name":">4kg - 5kg","value":5},{"name":">5kg - 6kg","value":6},{"name":">6kg - 7kg","value":7},{"name":">7kg - 8kg","value":8},{"name":">8kg - 9kg","value":9},{"name":">9kg - 10kg","value":10},{"name":">10kg - 11kg","value":11},{"name":">11kg - 12kg","value":12},{"name":">12kg - 13kg","value":13},{"name":">13kg - 14kg","value":14},{"name":">14kg - 15kg","value":15},{"name":">15kg - 16kg","value":16},{"name":">16kg - 17kg","value":17},{"name":">17kg - 18kg","value":18},{"name":">18kg - 19kg","value":19},{"name":">19kg - 20kg","value":20},{"name":">20kg - 21kg","value":21},{"name":">21kg - 22kg","value":22}]}}
