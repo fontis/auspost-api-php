@@ -17,7 +17,7 @@
  * <http://www.gnu.org/licenses/>.
  *
  * @category   Fontis
- * @package    auspost-api-php-client
+ * @package    auspost-api-php
  * @author     Thai Phan
  * @copyright  Copyright (c) 2013 Fontis Pty Ltd (http://www.fontis.com.au)
  * @license    http://opensource.org/licenses/LGPL-3.0 GNU Lesser General Public License (LGPL 3.0)

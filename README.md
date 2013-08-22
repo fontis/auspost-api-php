@@ -1,8 +1,8 @@
 Auspost API Client Library for PHP
 ==================================
 
-The Auspost API Client Library for PHP is a convenience library for integrating
-with Australia Post's web services.
+This library is a Guzzle-based client for integrating PHP applications with
+Australia Post's web services.
 
 Documentation on how to use this library can be found in the [Postage
 Assessment Calculation and Postcode Search][pacpcs-api-specification] and the
@@ -40,30 +40,26 @@ but they have not been tested.
 
 ### Install using Composer
 
-1. Add `fontis/auspost-api-php-client` as a Composer dependency in your project's `composer.json` file:
-
+1. Add `fontis/auspost-api-php` as a Composer dependency in your project's `composer.json` file:
 ```json
 {
     "require": {
-        "fontis/auspost-api-php-client": "*"
+        "fontis/auspost-api-php": "*"
     }
 }
 ```
 
 2. Download and install Composer into the repo:
-
 ```bash
 $ curl -sS https://getcomposer.org/installer | php
 ```
 
 3. Install the library dependencies:
-
 ```bash
 $ php composer.phar install
 ```
 
 4. Add the library to your PHP application:
-
 ```php
 require_once 'vendor/autoload.php';
 ```
@@ -72,12 +68,12 @@ require_once 'vendor/autoload.php';
 
 1. Clone this repo to an appropriate location:
 ```bash
-$ git clone https://github.com/fontis/auspost-api-php-client
+$ git clone https://github.com/fontis/auspost-api-php
 ```
 
 2. Download and install Composer into the repo:
 ```bash
-$ cd auspost-api-php-client
+$ cd auspost-api-php
 $ curl -sS https://getcomposer.org/installer | php
 ```
 
