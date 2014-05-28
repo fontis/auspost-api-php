@@ -1,6 +1,7 @@
 {
     "name": "fontis/auspost-api-php",
     "description": "Auspost API Client Library for PHP",
+    "license": "LGPL-3.0",
     "authors":[
         {
             "name": "Fontis",
