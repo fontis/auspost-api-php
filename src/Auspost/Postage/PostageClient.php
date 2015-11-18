@@ -56,7 +56,7 @@ class PostageClient extends Client
         $default = array(
             'developer_mode' => $developerMode,
             'base_url' => $baseUrl[$developerMode],
-            'auth_key' => '28744ed5982391881611cca6cf5c2409'
+            'auth_key' => '28744ed5982391881611cca6cf5c240'
         );
 
         $required = array(
