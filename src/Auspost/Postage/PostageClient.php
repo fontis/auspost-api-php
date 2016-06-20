@@ -34,6 +34,9 @@ use Guzzle\Service\Description\ServiceDescription;
  */
 class PostageClient extends Client
 {
+
+    const API_URL = 'https://digitalapi.auspost.com.au';
+
     public static function factory($config = array())
     {
         if (isset($config['developer_mode']) && is_bool($config['developer_mode'])) {
@@ -42,20 +45,11 @@ class PostageClient extends Client
             $developerMode = false;
         }
 
-        $baseUrl = array(
-            'https://auspost.com.au',
-            'https://test.npe.auspost.com.au'
-        );
-
-        // Ignore unnecessary user-specified configuration values
-        if ($developerMode) {
-            unset($config['auth_key']);
-        }
         unset($config['base_url']);
 
         $default = array(
             'developer_mode' => $developerMode,
-            'base_url' => $baseUrl[$developerMode],
+            'base_url' => self::API_URL,
             'auth_key' => '28744ed5982391881611cca6cf5c2409'
         );
 
@@ -67,7 +61,7 @@ class PostageClient extends Client
 
         $config = Collection::fromConfig($config, $default, $required);
 
-        $client =  new self($config->get('base_url'), $config);
+        $client =  new self(self::API_URL, $config);
 
         $client->getConfig()->setPath('request.options/headers/Accept', 'application/json');
         $client->getConfig()->setPath('request.options/headers/Auth-Key', $config->get('auth_key'));

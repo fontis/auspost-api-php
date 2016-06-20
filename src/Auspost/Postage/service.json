@@ -2,39 +2,39 @@
     "operations": {
         "ListCountries": {
             "httpMethod": "GET",
-            "uri": "api/postage/country"
+            "uri": "postage/country"
         },
         "ListDomesticLetterSizes": {
             "httpMethod": "GET",
-            "uri": "api/postage/letter/domestic/size"
+            "uri": "postage/letter/domestic/size"
         },
         "ListDomesticLetterThicknesses": {
             "httpMethod": "GET",
-            "uri": "api/postage/letter/domestic/thickness"
+            "uri": "postage/letter/domestic/thickness"
         },
         "ListDomesticLetterWeights": {
             "httpMethod": "GET",
-            "uri": "api/postage/letter/domestic/weight"
+            "uri": "postage/letter/domestic/weight"
         },
         "ListDomesticParcelSizes": {
             "httpMethod": "GET",
-            "uri": "api/postage/parcel/domestic/size"
+            "uri": "postage/parcel/domestic/size"
         },
         "ListDomesticParcelWeights": {
             "httpMethod": "GET",
-            "uri": "api/postage/parcel/domestic/weight"
+            "uri": "postage/parcel/domestic/weight"
         },
         "ListInternationalLetterWeights": {
             "httpMethod": "GET",
-            "uri": "api/postage/letter/international/weight"
+            "uri": "postage/letter/international/weight"
         },
         "ListInternationalParcelWeights": {
             "httpMethod": "GET",
-            "uri": "api/postage/parcel/international/weight"
+            "uri": "postage/parcel/international/weight"
         },
         "ListDomesticLetterServices": {
             "httpMethod": "GET",
-            "uri": "api/postage/letter/domestic/service",
+            "uri": "postage/letter/domestic/service",
             "parameters": {
                 "length": {
                     "required": true,
@@ -60,7 +60,7 @@
         },
         "ListDomesticParcelServices": {
             "httpMethod": "GET",
-            "uri": "api/postage/parcel/domestic/service",
+            "uri": "postage/parcel/domestic/service",
             "parameters": {
                 "from_postcode": {
                     "required": true,
@@ -96,7 +96,7 @@
         },
         "ListInternationalLetterServices": {
             "httpMethod": "GET",
-            "uri": "api/postage/letter/international/service",
+            "uri": "postage/letter/international/service",
             "parameters": {
                 "country_code": {
                     "required": true,
@@ -112,7 +112,7 @@
         },
         "ListInternationalParcelServices": {
             "httpMethod": "GET",
-            "uri": "api/postage/parcel/international/service",
+            "uri": "postage/parcel/international/service",
             "parameters": {
                 "country_code": {
                     "required": true,
@@ -128,7 +128,7 @@
         },
         "SearchPostcode": {
             "httpMethod": "GET",
-            "uri": "api/postcode/search",
+            "uri": "postcode/search",
             "parameters": {
                 "q": {
                     "required": true,
@@ -150,7 +150,7 @@
         },
         "CalculateDomesticLetterPostage": {
             "httpMethod": "GET",
-            "uri": "api/postage/letter/domestic/calculate",
+            "uri": "postage/letter/domestic/calculate",
             "parameters": {
                 "service_code": {
                     "required": true,
@@ -181,7 +181,7 @@
         },
         "CalculateDomesticParcelPostage": {
             "httpMethod": "GET",
-            "uri": "api/postage/parcel/domestic/calculate",
+            "uri": "postage/parcel/domestic/calculate",
             "parameters": {
                 "from_postcode": {
                     "required": true,
@@ -237,7 +237,7 @@
         },
         "CalculateInternationalLetterPostage": {
             "httpMethod": "GET",
-            "uri": "api/postage/letter/international/calculate",
+            "uri": "postage/letter/international/calculate",
             "parameters": {
                 "country_code": {
                     "required": true,
@@ -258,7 +258,7 @@
         },
         "CalculateInternationalParcelPostage": {
             "httpMethod": "GET",
-            "uri": "api/postage/parcel/international/calculate",
+            "uri": "postage/parcel/international/calculate",
             "parameters": {
                 "country_code": {
                     "required": true,
