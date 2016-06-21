@@ -41,51 +41,51 @@ but they have not been tested.
 ### Install using Composer
 
 1. Add `fontis/auspost-api-php` as a Composer dependency in your project's `composer.json` file:
-```json
-{
-    "require": {
-        "fontis/auspost-api-php": "*"
+    ```json
+    {
+        "require": {
+            "fontis/auspost-api-php": "*"
+        }
     }
-}
-```
+    ```
 
 2. Download and install Composer into the repo:
-```bash
-$ curl -sS https://getcomposer.org/installer | php
-```
+    ```bash
+    $ curl -sS https://getcomposer.org/installer | php
+    ```
 
 3. Install the library dependencies:
-```bash
-$ php composer.phar install
-```
+    ```bash
+    $ php composer.phar install
+    ```
 
 4. Add the library to your PHP application:
-```php
-require_once 'vendor/autoload.php';
-```
+    ```php
+    require_once 'vendor/autoload.php';
+    ```
 
 ### Install using Git
 
 1. Clone this repo to an appropriate location:
-```bash
-$ git clone https://github.com/fontis/auspost-api-php
-```
+    ```bash
+    $ git clone https://github.com/fontis/auspost-api-php
+    ```
 
 2. Download and install Composer into the repo:
-```bash
-$ cd auspost-api-php
-$ curl -sS https://getcomposer.org/installer | php
-```
+    ```bash
+    $ cd auspost-api-php
+    $ curl -sS https://getcomposer.org/installer | php
+    ```
 
 3. Install the library dependencies:
-```bash
-$ php composer.phar install
-```
+    ```bash
+    $ php composer.phar install
+    ```
 
 4. Add the library to your PHP application:
-```php
-require_once 'vendor/autoload.php';
-```
+    ```php
+    require_once 'vendor/autoload.php';
+    ```
 
 ## Quick Example
 
