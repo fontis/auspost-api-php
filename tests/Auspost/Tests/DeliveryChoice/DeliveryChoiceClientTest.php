@@ -39,7 +39,7 @@ class DeliveryChoiceClientTest extends \Guzzle\Tests\GuzzleTestCase
         $userEmail,
         $userPwd,
         $developerMode = true,
-        $reqUrl = 'https://devcentre.auspost.com.au/myapi',
+        $reqUrl = 'https://api.auspost.com.au',
         $reqEmail = 'anonymous@auspost.com.au',
         $reqPwd = 'password'
     ) {

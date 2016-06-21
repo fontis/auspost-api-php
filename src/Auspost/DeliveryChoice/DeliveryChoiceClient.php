@@ -32,6 +32,8 @@ use Guzzle\Service\Description\ServiceDescription;
 
 class DeliveryChoiceClient extends Client
 {
+    const API_URL = 'https://api.auspost.com.au';
+
     public static function factory($config = array())
     {
         if (isset($config['developer_mode']) && is_bool($config['developer_mode'])) {
@@ -40,21 +42,17 @@ class DeliveryChoiceClient extends Client
             $developerMode = false;
         }
 
-        $baseUrl = array(
-            'https://api.auspost.com.au',
-            'https://devcentre.auspost.com.au/myapi'
-        );
-
         // Ignore unnecessary user-specified configuration values
         if ($developerMode) {
             unset($config['email_address']);
             unset($config['password']);
         }
+
         unset($config['base_url']);
 
         $default = array(
             'developer_mode' => $developerMode,
-            'base_url' => $baseUrl[$developerMode],
+            'base_url' => self::API_URL,
             'email_address' => 'anonymous@auspost.com.au',
             'password' => 'password'
         );
@@ -68,7 +66,7 @@ class DeliveryChoiceClient extends Client
 
         $config = Collection::fromConfig($config, $default, $required);
 
-        $client =  new self($config->get('base_url'), $config);
+        $client =  new self(self::API_URL, $config);
 
         $client->getConfig()->setPath(
             'request.options/headers/Authorization',
@@ -77,10 +75,13 @@ class DeliveryChoiceClient extends Client
         $client->setDescription(ServiceDescription::factory(__DIR__ . '/service.json'));
         $client->setSslVerification(false);
 
-        $client->getEventDispatcher()->addListener('request.before_send', function (Event $event) {
-            $request = $event['request'];
-            $request->addCookie('OBBasicAuth', 'fromDialog');
-        });
+        $client->getEventDispatcher()->addListener(
+            'request.before_send',
+            function (Event $event) {
+                $request = $event['request'];
+                $request->addCookie('OBBasicAuth', 'fromDialog');
+            }
+        );
 
         return $client;
     }
