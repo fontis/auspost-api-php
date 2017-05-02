@@ -38,12 +38,12 @@
             "parameters": {
                 "length": {
                     "required": true,
-                    "type": "integer",
+                    "type": ["integer", "string"],
                     "location": "query"
                 },
                 "width": {
                     "required": true,
-                    "type": "integer",
+                    "type": ["integer", "string"],
                     "location": "query"
                 },
                 "thickness": {
@@ -64,12 +64,12 @@
             "parameters": {
                 "from_postcode": {
                     "required": true,
-                    "type": "integer",
+                    "type": ["integer", "string"],
                     "location": "query"
                 },
                 "to_postcode": {
                     "required": true,
-                    "type": "integer",
+                    "type": ["integer", "string"],
                     "location": "query"
                 },
                 "length": {
@@ -185,12 +185,12 @@
             "parameters": {
                 "from_postcode": {
                     "required": true,
-                    "type": "integer",
+                    "type": ["integer", "string"],
                     "location": "query"
                 },
                 "to_postcode": {
                     "required": true,
-                    "type": "integer",
+                    "type": ["integer", "string"],
                     "location": "query"
                 },
                 "length": {

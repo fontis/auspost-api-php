@@ -6,13 +6,13 @@
             "parameters": {
                 "from_postcode": {
                     "required": true,
-                    "type": "integer",
+                    "type": ["integer", "string"],
                     "location": "query",
                     "sentAs": "fromPostcode"
                 },
                 "to_postcode": {
                     "required": true,
-                    "type": "integer",
+                    "type": ["integer", "string"],
                     "location": "query",
                     "sentAs": "toPostcode"
                 },
@@ -53,7 +53,7 @@
             "parameters": {
                 "postcode": {
                     "required": false,
-                    "type": "integer",
+                    "type": ["integer", "string"],
                     "location": "query"
                 }
             }
@@ -80,7 +80,7 @@
                 },
                 "postcode": {
                     "required": false,
-                    "type": ["string", "integer"],
+                    "type": ["integer", "string"],
                     "location": "query"
                 },
                 "last_update": {
@@ -131,7 +131,7 @@
                 },
                 "postcode": {
                     "required": true,
-                    "type": "string",
+                    "type": ["integer", "string"],
                     "location": "query"
                 },
                 "country": {

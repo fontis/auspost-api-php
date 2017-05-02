@@ -103,7 +103,36 @@ class OperationsTest extends \Guzzle\Tests\GuzzleTestCase
                     'lodgement_date' => '2022-10-10T07:00:00Z',
                     'number_of_dates' => 2
                 )
-            )
+            ),
+            array(
+                array('deliverychoice/list_delivery_dates'),
+                array(
+                    'from_postcode' => '3000',
+                    'to_postcode' => '2000',
+                    'network_id' => DeliveryNetwork::STANDARD,
+                    'lodgement_date' => '2022-10-10T07:00:00Z'
+                )
+            ),
+            array(
+                array('deliverychoice/list_delivery_dates_number_of_dates_1'),
+                array(
+                    'from_postcode' => '3000',
+                    'to_postcode' => '2000',
+                    'network_id' => DeliveryNetwork::STANDARD,
+                    'lodgement_date' => '2022-10-10T07:00:00Z',
+                    'number_of_dates' => 1
+                )
+            ),
+            array(
+                array('deliverychoice/list_delivery_dates_number_of_dates_2'),
+                array(
+                    'from_postcode' => '3000',
+                    'to_postcode' => '2000',
+                    'network_id' => DeliveryNetwork::STANDARD,
+                    'lodgement_date' => '2022-10-10T07:00:00Z',
+                    'number_of_dates' => 2
+                )
+            ),
         );
     }
 
@@ -183,7 +212,11 @@ class OperationsTest extends \Guzzle\Tests\GuzzleTestCase
             array(
                 array('deliverychoice/list_postcode_capabilities_melbourne'),
                 array('postcode' => 3000)
-            )
+            ),
+            array(
+                array('deliverychoice/list_postcode_capabilities_melbourne'),
+                array('postcode' => '3000')
+            ),
         );
     }
 
@@ -285,7 +318,18 @@ class OperationsTest extends \Guzzle\Tests\GuzzleTestCase
                 array('postcode' => 3029),
                 array('empty' => false, 'single' => true),
                 array('Hoppers Crossing')
-            )
+            ),
+            array(
+                array('deliverychoice/list_customer_collection_points_footscray'),
+                array('postcode' => '3011'),
+                array('empty' => true),
+            ),
+            array(
+                array('deliverychoice/list_customer_collection_points_hoppers_crossing'),
+                array('postcode' => '3029'),
+                array('empty' => false, 'single' => true),
+                array('Hoppers Crossing')
+            ),
         );
     }
 
@@ -390,6 +434,30 @@ class OperationsTest extends \Guzzle\Tests\GuzzleTestCase
     public function validateAddressProvider()
     {
         return array(
+            array(
+                array('deliverychoice/validate_address_incorrect'),
+                array(
+                    'address_line_1' => '483 George Street',
+                    'suburb' => 'Sydney',
+                    'state' => 'XYZ',
+                    'postcode' => 2000,
+                    'country' => 'Australia'
+                ),
+                false,
+                'Invalid state'
+            ),
+            array(
+                array('deliverychoice/validate_address_correct'),
+                array(
+                    'address_line_1' => '111',
+                    'address_line_2' => 'Bourke ST',
+                    'suburb' => 'Melbourne',
+                    'state' => State::VIC,
+                    'postcode' => 3000,
+                    'country' => 'Australia'
+                ),
+                true
+            ),
             array(
                 array('deliverychoice/validate_address_incorrect'),
                 array(

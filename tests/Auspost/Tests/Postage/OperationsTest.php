@@ -222,6 +222,35 @@ class OperationsTest extends \Guzzle\Tests\GuzzleTestCase
         $this->assertContains(ServiceCode::AUS_PARCEL_REGULAR, $codes);
     }
 
+    public function testListDomesticParcelServicesForStringPostcodes()
+    {
+        $this->setMockResponse(
+            $this->client,
+            array('postage/list_domestic_parcel_services')
+        );
+
+        $response = $this->client->listDomesticParcelServices(array(
+            'from_postcode' => '3000',
+            'to_postcode' => '3011',
+            'length' => 100,
+            'width' => 100,
+            'height' => 10,
+            'weight' => 20
+        ));
+        $this->assertArrayHasKey('services', $response);
+        $this->assertArrayHasKey('service', $response['services']);
+        $services = $response['services']['service'];
+        $this->assertCount(4, $services);
+        $codes = array();
+        foreach ($services as $service) {
+            $codes[] = $service['code'];
+        }
+        $this->assertContains(ServiceCode::AUS_PARCEL_COURIER, $codes);
+        $this->assertContains(ServiceCode::AUS_PARCEL_COURIER_SATCHEL_MEDIUM, $codes);
+        $this->assertContains(ServiceCode::AUS_PARCEL_EXPRESS, $codes);
+        $this->assertContains(ServiceCode::AUS_PARCEL_REGULAR, $codes);
+    }
+
     public function testListInternationalLetterServices()
     {
         $this->setMockResponse(
