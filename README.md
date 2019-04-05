@@ -103,7 +103,7 @@ $client = Auspost::factory('/path/to/config.php')->get('postage');
 
 $result = $client->calculateDomesticParcelPostage(array(
     'from_postcode' => 3000,
-    'to_postocde' => 3011,
+    'to_postcode' => 3011,
     'length' => 10,
     'width' => 10,
     'height' => 10,
