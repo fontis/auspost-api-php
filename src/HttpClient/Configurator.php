@@ -70,7 +70,7 @@ class Configurator
         $plugins = [
             new AddHostPlugin($this->getUriFactory()->createUri($this->getEndpoint())),
             new HeaderDefaultsPlugin([
-                'AUTH-KEY: ' => $this->getApiKey(),
+                'AUTH-KEY' => $this->getApiKey(),
             ]),
         ];
 
